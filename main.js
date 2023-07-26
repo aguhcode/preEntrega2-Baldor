@@ -11,7 +11,7 @@ const tasasDeCambio = {
     ARS: 520,
     REAL: 24,
     
-    // Agrega más tasas de cambio según tus necesidades
+
 };
 
 // genero las opciones para los select de moneda
