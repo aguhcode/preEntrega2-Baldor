@@ -3,7 +3,7 @@ const monedaDesdeInput = document.getElementById("moneda-desde");
 const monedaHastaInput = document.getElementById("moneda-hasta");
 const resultadoDiv = document.getElementById("resultado");
 
-// Defino las tasas de cambio
+// defino las tasas de cambio
 const tasasDeCambio = {
     USD: 1.0,
     EUR: 0.85,
@@ -14,7 +14,7 @@ const tasasDeCambio = {
     // Agrega más tasas de cambio según tus necesidades
 };
 
-// Genero las opciones para los select de moneda
+// genero las opciones para los select de moneda
 const monedas = Object.keys(tasasDeCambio);
 
 monedas.forEach(moneda => {
@@ -34,7 +34,7 @@ function convertirMoneda() {
     const monedaHasta = monedaHastaInput.value;
     
     if (isNaN(monto)) {
-        resultadoDiv.textContent = "Ingrese un monto válido";
+        resultadoDiv.textContent = "Ingrese un monto valido";
         return;
     }
     
@@ -43,6 +43,6 @@ function convertirMoneda() {
         const montoConvertido = monto * tasaConversion;
         resultadoDiv.textContent = `El monto convertido es: ${montoConvertido.toFixed(2)} ${monedaHasta}`;
     } else {
-        resultadoDiv.textContent = "Moneda no válida";
+        resultadoDiv.textContent = "Moneda no valida";
     }
 }

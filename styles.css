@@ -14,13 +14,13 @@ body {
     padding: 20px;
 }
 
-/* Estilos para el título principal */
+/* estilos para el título principal */
 h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilos para el contenedor del formulario */
+/* estilos para el contenedor del formulario */
 .formulario {
     max-width: 400px;
     margin: 0 auto;
@@ -31,7 +31,7 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para las etiquetas y campos de entrada */
+/* estilos para las etiquetas y campos de entrada */
 label {
     display: block;
     margin-bottom: 8px;
@@ -45,7 +45,7 @@ select {
     border-radius: 4px;
 }
 
-/* Estilos para el botón de conversión */
+/* estilos para el botón de conversión */
 button {
     width: 100%;
     background-color: #007bff;
@@ -60,7 +60,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para el contenedor del resultado */
+/* estilos para el contenedor del resultado */
 .resultado {
     margin-top: 20px;
     padding: 10px;
